@@ -14,7 +14,7 @@ import com.faith.dao.ILoginDao;
 import com.faith.model.Login;
 
 @CrossOrigin
-@RestController
+@RestController      
 @RequestMapping("/api")
 public class LoginController {
 	@Autowired
